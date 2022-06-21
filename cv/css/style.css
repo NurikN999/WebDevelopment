@@ -104,4 +104,17 @@ td{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 2%;
+}
+.contact-link
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    padding: 1%;
+}
+.contact-link:hover
+{
+    transition: 0.5s;
+    color: orange;
 }
