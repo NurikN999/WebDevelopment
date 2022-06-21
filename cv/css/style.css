@@ -1,6 +1,7 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 250, 251);
 }
 .header
 {
@@ -10,7 +11,13 @@ body
     background-color: rgb(251, 250, 251);
     border-bottom: 3px solid orange;
 }
-
+hr
+{
+    border-style: none;
+    height: 2px;
+    width: 30%;
+    border-top: 5px dotted orange;
+}
 .img
 {
     width: 20%;
@@ -91,4 +98,10 @@ td{
 .skill-table
 {
     margin: 0 auto;
+}
+.links
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
