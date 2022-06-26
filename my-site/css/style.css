@@ -1,3 +1,10 @@
+body
+{
+    height: 100%;
+    font-family: 'Arial';
+    margin: 0;
+    background-color: #FFFAFA;
+}
 img
 {
     border-radius: 100%;
@@ -10,8 +17,6 @@ img
     width: 80%;
     margin: 0 auto;  
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
 }
 
 ul {
@@ -39,4 +44,53 @@ ul>li>a:hover
 {
     transition: 0.5s;
     color: orange;
+}
+.main
+{
+    background-color: #E0EBE8;
+    padding-top: 50px;
+    padding-bottom: 15%;
+}
+.name
+{
+    text-align: center;
+}
+.job
+{
+    text-align: center;
+}
+
+article, figure
+{
+    display: block;
+}
+
+.about-me>.container>article
+{
+    margin: 0 auto;
+    max-width: 460px;
+}
+
+.about-me>figure{
+    margin: 0 auto;
+    max-width: 150px;
+}
+.about-me
+{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+p
+{
+    font-size: 1.5 rem;
+}
+
+hr
+{
+    border-style: none;
+    height: 2px;
+    width: 10%;
+    border-top: 5px dotted grey;
 }
