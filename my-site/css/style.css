@@ -136,7 +136,7 @@ footer p, footer a
     margin: 0;
     padding: 2.5em 0 0;
 }
-.copyright
+.copyright, .links
 {
     margin: 0 auto;
 }
