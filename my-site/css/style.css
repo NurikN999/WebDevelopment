@@ -17,6 +17,7 @@ img
     width: 80%;
     margin: 0 auto;  
     display: flex;
+    flex-direction: row;
 }
 
 ul {
@@ -75,7 +76,7 @@ article, figure
     margin: 0 auto;
     max-width: 150px;
 }
-.about-me
+.about-me, .what-i
 {
     padding-top: 5%;
     padding-bottom: 3%;
@@ -86,11 +87,34 @@ p
 {
     font-size: 1.5 rem;
 }
-
+h3
+{
+    color: #45B29A;
+}
+h2
+{
+    color: #1E836C;
+}
 hr
 {
     border-style: none;
     height: 2px;
     width: 10%;
     border-top: 5px dotted grey;
+}
+
+.what-i>.container>article
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.deets
+{
+    margin: 0 auto;
+    max-width: 460px;
 }
