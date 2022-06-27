@@ -118,3 +118,25 @@ hr
     margin: 0 auto;
     max-width: 460px;
 }
+
+
+
+/* footer section */
+footer
+{
+    background-color: #C5DED7;
+    padding: 3em 0;
+}
+footer p, footer a  
+{
+    text-align: center;
+    color: #45b29a;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 2.5em 0 0;
+}
+.copyright
+{
+    margin: 0 auto;
+}
