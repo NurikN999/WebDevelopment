@@ -49,11 +49,40 @@
    color: #8f8f8f;
  }
  #features{
-   margin-top: 5%;
+   margin: 10% 0 10% 0;
+ }
+ i{
+   cursor: pointer;
+   transition: 0.5s;
+ }
+ i:hover{
+   color: #333333;
+   transition: 0.5s;
+ }
+ .projects-heading{
+   font-size: 2.5rem;
+   margin-bottom: 5%;
+ }
+ .projects-img{
+   width: 400px;
+   margin: 5% 0 2% 0;
+   border-radius: 15px;
+ }
+ .projects-text{
+   font-size: 1.5rem;
+ }
+ #projects{
+   text-align: center;
+   padding: 7% 15%;
+   background: linear-gradient(270deg, #85dcb0, #41B3A3);
+   color: #ffffff;
  }
  @media screen and (max-width:390px) {
   .title-heading{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  .projects-heading{
+    font-size: 1.5rem;
   }
 }
 :root {
